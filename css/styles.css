@@ -1,0 +1,498 @@
+
+@import url('glyph.css');
+@import url('fonts.css');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Yeseva one', 'Sans';
+    font-weight: initial;
+}
+.Bg2{
+position:absolute;
+top: 894px;
+}
+.Bg3{
+    position: absolute;
+    top: 1722px;
+}
+.Bg4{
+    position: absolute;
+    top:2640px;
+}
+.Bg5{
+    position: absolute;
+    top:3439px;
+}
+.color_for_titles{
+    color:rgba(240, 200, 225, 1);
+}
+.main_title1{
+font-size: 188px;
+position: absolute;
+top: 435px;
+left: 420px;
+color:rgba(240, 200, 225, 1);
+}
+.main_title2{
+font-size: 188px;
+position: absolute;
+left: 900px;
+top: 581px;
+color:rgba(240, 200, 225, 1);
+}
+.title2{
+    font-size:99px;
+    position:absolute;
+    left: 26px;
+    top: 1003px;
+    color:rgba(240, 200, 225, 1);
+}
+.title3{
+    font-size: 99px;
+    position: absolute;
+    left: 909px;
+    top: 1848px;
+    color: rgba(240, 200, 225, 1);
+    
+}
+.title4_L{
+    font-size: 90px;
+    position: absolute;
+    left: 470px;
+    top: 2804px;
+    color: white;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: rgba(222, 158, 244, 1)
+}
+.title5{
+    font-size:90px;
+    position: absolute;
+    left: 576px;
+    top: 3702px;
+    color: rgba(240, 200, 225, 1);
+
+}
+.title6{
+    font-size: 90px;
+    position: absolute;
+    left: 497px;
+    top: 4141px;
+    color: rgba(240, 200, 225, 1);
+}
+p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.box{
+    width: 998px;
+    height: 367px;
+    position: absolute;
+    left: 215px;
+    top: 2897px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(76, 31, 89, 1);
+    word-spacing: 23px;
+    line-height: 55px;
+}
+.signs_box{
+    position: absolute;
+    top: 3900px;
+    left: 277px;
+    width: 995px;
+    height: 300px;
+}
+.sign_ring{
+    margin: 23px;
+}
+.big_sign_cryst{
+    position: absolute;
+    left: 234px;
+    top: 4000px;
+}
+.sign{
+    font-size: 50px;
+    position: absolute;
+    top:3935px;
+    left: 320px;
+    letter-spacing: 9px;
+}
+.Frame_alphabet{
+    position: absolute;
+    top:350px;
+    left: 140px;
+    z-index: 7;
+}
+.Yeseva_One_Cycle{
+    animation-name: m_rotation;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+    animation-timing-function: ease;
+    position: absolute;
+    top:380px;
+    left: 170px;
+    z-index: 7;
+}
+
+
+
+
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: rgba(141, 91, 165, 1);
+}
+
+
+.diamond_e{
+    position: absolute;
+    top: 264px;
+    left: -20px;
+}
+.diamond_v{
+    position: absolute;
+    top: 598px;
+    left: 282px;
+}
+.diamond_a{
+    position: absolute;
+    top: 624px;
+    left: 483px;
+}
+.diamond_d{
+    position: absolute;
+    top: 29px;
+    left: 678px;
+}
+.diamond_a2{
+    position: absolute;
+    top: 126px;
+    left: 1032px;
+}
+.Crystall{
+    position: absolute;
+    top: 1048px;
+    left: 459px;
+}
+.font_description{
+    position: absolute;
+    top: 1200px;
+    left: 770px;
+    font-size: 31px;
+    color: white;
+}
+.navigation_diamonds{
+    position: absolute;
+    padding-left: 362px;
+    top: 11px;
+
+}
+.rings{
+    position:absolute;
+    top:1258px;
+    left: 45px;
+}
+.man{
+    position: absolute;
+    top: 1356px;
+    left: 160px;
+    cursor: pointer;
+}
+.woman{
+    position: absolute;
+    top: 1528px;
+    left: 240px;
+    cursor:pointer;
+}
+.lens{
+    position: absolute;
+    top: 1956px;
+    left: 29px;
+}
+.diamond_antikva{
+    z-index: 3;
+    position: absolute;
+    top:2084px;
+    left: 135px;
+}
+.da_antikva{
+    z-index: 4;
+    position: absolute;
+    top: 2198px;
+    left: 276px;
+    font-size: 99px;
+    color: white;
+    cursor: zoom-in;
+}
+.antikva-description1{
+    z-index: 6;
+    position: absolute;
+    left: 340px;
+    top: 1980px;
+    opacity: 0%;
+}
+.antikva-description2{
+    z-index: 6;
+    position: absolute;
+    left: 366px;
+    top: 2308px;
+    opacity: 0%;
+}
+.examples{
+    position: absolute;
+    top: 4297px;
+    left: 62px;
+}
+.logo{
+    position: absolute;
+    top: 4297px;
+    left: 569px;
+}
+.wedding{
+    position: absolute;
+    top: 4297px;
+    left: 1052px;
+}
+.hutor{
+    position: absolute;
+    top: 4747px;
+    background-color: black;
+    width: 1425px;
+    height: 139px;
+}
+.author{
+    font-size: 16px;
+    position: absolute;
+    top: 4820px;
+    left: 65px;
+    color: white;
+}
+.hse{
+    font-size: 48px;
+    position: absolute;
+    top:4761px;
+    left: 525px;
+    color: white;
+}
+.faculcy{
+    font-size: 16px;
+    position: absolute;
+    top: 4820px;
+    left: 1280px;
+    color: white;
+}
+
+
+
+.p1{
+    color:rgba(216, 175, 173, 1);
+    position: absolute;
+    left: 408px;
+    top: 21px;
+    cursor: pointer;
+    }
+.p2{
+    color:rgba(176, 132, 191, 1);
+    position: absolute;
+    left: 601px;
+    top: 21px;
+    cursor: pointer;
+    }
+.p3{
+    color:rgba(223, 181, 205, 1);
+    position: absolute;
+    left: 771px;
+    top: 21px;
+    cursor: pointer;
+    }
+.p4{
+    color:rgba(147, 96, 162, 1);
+    position: absolute;
+    left: 942px;
+    top: 21px;
+    cursor: pointer;
+    }
+.p1:hover{
+    animation-name:nav_anim_p1;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    font-size:18px;
+    left: 404px;  
+     
+}
+.p2:hover{
+    animation-name:nav_anim_p2;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    font-size:18px;
+    left: 597px;  
+     
+}
+.p3:hover{
+    animation-name:nav_anim_p3;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    font-size:18px;
+    left: 767px;  
+     
+}
+.p4:hover{
+    animation-name:nav_anim_p4;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    font-size:18px;
+    left: 938px;  
+     
+}
+@keyframes nav_anim_p1{
+from{
+    font-size: 16px;
+    left: 408px;
+    
+}
+to{
+    font-size: 18px;
+    left: 404px;
+    
+    
+}
+}
+@keyframes nav_anim_p2{
+from{
+    font-size: 16px;
+    left: 601px;
+    
+}
+to{
+    font-size: 18px;
+    left: 597px;
+    
+    
+}
+}
+@keyframes nav_anim_p3{
+from{
+    font-size: 16px;
+    left: 771px;
+    
+}
+to{
+    font-size: 18px;
+    left: 767px;
+    
+    
+}
+}
+@keyframes nav_anim_p4{
+from{
+    font-size: 16px;
+    left: 942px;
+    
+}
+to{
+    font-size: 18px;
+    left: 938px;
+    
+    
+}
+}
+@keyframes m_rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes w_rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes scaling{
+    from{
+        transform: scale();
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+@keyframes semi-rotation{
+    from{
+        transform: rotate();
+    }
+    to{
+        transform: rotate(2deg);
+    }
+}
+@keyframes opacity_change{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity:100%;
+    }
+}
+
+.man:hover{
+animation-name:m_rotation;
+animation-iteration-count: infinite;
+animation-duration: 0.7s;
+animation-timing-function: linear;
+}
+.woman:hover{
+animation-name:w_rotation;
+animation-iteration-count: infinite;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+}
+.da_antikva:hover{
+    animation-name: scaling;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    
+}
+.da_antikva:hover ~ .diamond_antikva{
+    animation-name: scaling;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    
+}
+.da_antikva:hover ~ .lens{
+    animation-name: semi-rotation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.da_antikva:hover ~ .antikva-description1{
+    animation-name: scaling;
+    animation-name: opacity_change;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.da_antikva:hover ~ .antikva-description2{
+    animation-name: scaling;
+    animation-name: opacity_change;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+

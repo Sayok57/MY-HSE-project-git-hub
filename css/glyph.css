@@ -1,0 +1,242 @@
+
+/* Сразу скажу, что если планируете это в своем проекте делать, то отнесите это в отдельный файлик типа glyph.css, чтобы не вставлять кучу однотипного css в основной файл */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+main{
+    position: absolute;
+    left: 380px;
+    top: 2920px;
+}
+.glyph_grid{
+    display: grid;
+    grid-template-columns: repeat(10, 60px);
+    grid-template-rows: 60;
+    border: 5px solid rgba(76, 31, 89, 1) ;
+    width: 640px;
+    height: 50%;
+    cursor: zoom-in;
+}
+.glyph_grid > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 50px;
+  border: 2px solid rgba(233, 168, 255, 1) ;
+  margin-left: 23px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.letter_preview{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.letter_preview > p{
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:227px;
+  left: 325px;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  font-size: 80px;
+}
+
+/* Set default opacity */
+.letter_preview #AShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #BShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #CShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #DShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #EShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #FShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #GShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #HShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #IShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #JShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #KShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #LShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #MShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #NShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #OShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #PShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #QShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #RShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #SShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #TShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #UShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #VShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #WShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #XShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #YShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.letter_preview #ZShow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+/* Обязательно нужен общий элемент, внутри которого будет таблица с глифами и окошко для превью глифов
+
+В штуке снизу я проверяю, есть ли в элементе main (это тег такой) глиф с айди #q, на который навели (:hover). Если такой элемент есть, то мы его парный элемент внутри окошка для просмотра с тегом #qShow делает непрозрачным */
+main:has(.glyph_grid #Aa:hover) .letter_preview #AShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Bb:hover) .letter_preview #BShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Cc:hover) .letter_preview #CShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Dd:hover) .letter_preview #DShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Ee:hover) .letter_preview #EShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Ff:hover) .letter_preview #FShow {
+  opacity: 1;
+}
+
+main:has(.glyph_grid #Gg:hover) .letter_preview #GShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Hh:hover) .letter_preview #HShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Ii:hover) .letter_preview #IShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Jj:hover) .letter_preview #JShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Kk:hover) .letter_preview #KShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Ll:hover) .letter_preview #LShow {
+  opacity: 1;
+}
+
+main:has(.glyph_grid #Mm:hover) .letter_preview #MShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Nn:hover) .letter_preview #NShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Oo:hover) .letter_preview #OShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Pp:hover) .letter_preview #PShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Qq:hover) .letter_preview #QShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Rr:hover) .letter_preview #RShow {
+  opacity: 1;
+}
+
+main:has(.glyph_grid #Ss:hover) .letter_preview #SShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Tt:hover) .letter_preview #TShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Uu:hover) .letter_preview #UShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Vv:hover) .letter_preview #VShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Ww:hover) .letter_preview #WShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Xx:hover) .letter_preview #XShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Yy:hover) .letter_preview #YShow {
+  opacity: 1;
+}
+main:has(.glyph_grid #Zz:hover) .letter_preview #ZShow {
+  opacity: 1;
+}
